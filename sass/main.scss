@@ -1,4 +1,6 @@
 
+@import "./base/reset";
+
 @import './utils/vars';
 @import './utils/mixins';
 
@@ -8,5 +10,3 @@
 @import "./components/info";
 @import "./components/arrows";
 @import "./components/glide";
-
-@import "./base/reset";
