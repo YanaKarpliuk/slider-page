@@ -5,8 +5,7 @@ import Glide, {
 
 new Glide(".glide", {
   type: "carousel",
-  // autoplay: 4000,
-  autoplay: false,
+  autoplay: 4000,
   hoverpause: false,
   gap: 0,
 }).mount({ Controls, Autoplay });
