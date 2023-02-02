@@ -562,7 +562,8 @@ var _glideModularEsmJs = require("../node_modules/@glidejs/glide/dist/glide.modu
 var _glideModularEsmJsDefault = parcelHelpers.interopDefault(_glideModularEsmJs);
 new (0, _glideModularEsmJsDefault.default)(".glide", {
     type: "carousel",
-    autoplay: 4000,
+    // autoplay: 4000,
+    autoplay: false,
     hoverpause: false,
     gap: 0
 }).mount({
