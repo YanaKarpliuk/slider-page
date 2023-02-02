@@ -1,7 +1,7 @@
 import Glide, {
   Controls,
   Autoplay,
-} from "../node_modules/@glidejs/glide/dist/glide.modular.esm";
+} from "../node_modules/@glidejs/glide/dist/glide.modular.esm.js";
 
 new Glide(".glide", {
   type: "carousel",
