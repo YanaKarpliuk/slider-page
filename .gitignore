@@ -1,3 +1,4 @@
 .parcel-cache
 .sass-cache
 node_modules
+dist
