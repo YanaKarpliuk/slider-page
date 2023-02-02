@@ -1,0 +1,22 @@
+@mixin font($fw, $fs, $lh) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+}
+
+@mixin margin-left() {
+  margin-left: 5px;
+  @media screen and (min-width: 768px) {
+    margin-left: 10px;
+  }
+}
+
+@mixin layout($img) {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url($img);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
