@@ -558,19 +558,19 @@ function hmrAccept(bundle, id) {
 
 },{}],"1Z4Rq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _glideModularEsmJs = require("../node_modules/@glidejs/glide/dist/glide.modular.esm.js");
-var _glideModularEsmJsDefault = parcelHelpers.interopDefault(_glideModularEsmJs);
-new (0, _glideModularEsmJsDefault.default)(".glide", {
+var _glideModularEsm = require("@glidejs/glide/dist/glide.modular.esm");
+var _glideModularEsmDefault = parcelHelpers.interopDefault(_glideModularEsm);
+new (0, _glideModularEsmDefault.default)(".glide", {
     type: "carousel",
     autoplay: 4000,
     hoverpause: false,
     gap: 0
 }).mount({
-    Controls: (0, _glideModularEsmJs.Controls),
-    Autoplay: (0, _glideModularEsmJs.Autoplay)
+    Controls: (0, _glideModularEsm.Controls),
+    Autoplay: (0, _glideModularEsm.Autoplay)
 });
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../node_modules/@glidejs/glide/dist/glide.modular.esm.js":"5Zk4m"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@glidejs/glide/dist/glide.modular.esm":"5Zk4m"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
